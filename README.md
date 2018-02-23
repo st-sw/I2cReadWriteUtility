@@ -11,8 +11,8 @@ It can also control the GPIOs pins @3.3V (set or get level '0' or '1'). <br/>
 
 It is a usefull tool if you need to quickly read or modify the internal registers of a silicon device, without having the time to develop your own firmware for your platform. It is mainly usefull during prototyping phase or evaluation phase.
 
-The Software is free of charge. But your comments are welcome. <br/>
-The hardware is based on the cheap version of ARM Cortex-M0 evaluation boards from STMicroelectronics : the popular STM32 Nucleo Boards, which are Arduino compatible.
+The Software is free of charge. <br/>
+The hardware is based on the cheap version of ARM Cortex-M0 evaluation boards from STMicroelectronics : the popular STM32 Nucleo Boards, which are compatible with Arduino shields.
 
 The harware is used as a I2C Master interface. <br/>
 It can control any I2C Slave ICs, as long as they follow the I2C specification from Philips/NXP.
@@ -33,7 +33,7 @@ The hardware used for the I2C software is a cheap ARM Cortex evaluation board wh
 Supported Operating systems:
 ----------------
 - Windows 7, Windows 8.1, Windows 10
-- Linux
+- Linux (tested on Ubuntu)
 - MacOS X
 
 I2C frequency supported:
