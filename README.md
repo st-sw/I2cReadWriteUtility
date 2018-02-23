@@ -49,7 +49,7 @@ USB drivers for Windows :
 STSW-STM32102: &nbsp;&nbsp;&nbsp; STM32 Virtual COM Port Driver <br/>
 Download link: http://www.st.com/en/development-tools/stsw-stm32102.html
 
-No drivers are needed for Mac & Linux.
+No drivers are needed for Mac & Linux. It is recognized as the USB CDC class.
 
 Notes:
 ----------------
