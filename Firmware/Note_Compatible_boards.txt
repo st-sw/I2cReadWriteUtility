@@ -1,0 +1,8 @@
+
+- Standard boards (Nucleo-64 pins):
+NUCLEO-F072RB    http://www.st.com/en/evaluation-tools/nucleo-f072rb.html
+NUCLEO-F030R8    http://www.st.com/en/evaluation-tools/nucleo-f030r8.html
+
+- Mini boards (Nucleo-32 pins):
+NUCLEO-F042K6    http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
+
