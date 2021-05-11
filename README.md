@@ -9,7 +9,7 @@ This is a free I2C Read & Write utility for PC and Mac. <br/>
 It is an easy to use USB-to-I2C dongle, based on a low cost STM32 evaluation board. <br/>
 It can also control the GPIOs pins @3.3V (set or get level '0' or '1'). <br/>
 
-It is a usefull tool if you need to quickly read or modify the internal registers of a silicon device, without having the time to develop your own firmware for your platform. It is mainly usefull during prototyping phase or evaluation phase.
+It is a useful tool if you need to quickly read or modify the internal registers of a silicon device, without having the time to develop your own firmware for your platform. It is mainly useful during prototyping phase or evaluation phase.
 
 The Software is free of charge. <br/>
 The hardware is based on the cheap version of ARM Cortex-M0 evaluation boards from STMicroelectronics : the popular STM32 Nucleo Boards, which are compatible with Arduino shields.
@@ -53,6 +53,6 @@ No drivers are needed for Mac & Linux. It is recognized as the USB CDC class.
 
 Notes:
 ----------------
-Please Report any isue about this tool.
+Please Report any issue about this tool.
 Thanks for your feedback.
 
