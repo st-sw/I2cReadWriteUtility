@@ -11,10 +11,12 @@ It can also control the GPIOs pins @3.3V (set or get level '0' or '1'). <br/>
 
 It is a useful tool if you need to quickly read or modify the internal registers of a silicon device, without having the time to develop your own firmware for your platform. It is mainly useful during prototyping phase or evaluation phase.
 
+This hardware solution is not based on FTDI usb to serial chip. But it uses STM32 virtual port COM (VPC) feature. So with a microcontroller you have more flexibility than with FTDI.
+
 The Software is free of charge. <br/>
 The hardware is based on the cheap version of ARM Cortex-M0 evaluation boards from STMicroelectronics : the popular STM32 Nucleo Boards, which are compatible with Arduino shields.
 
-The harware is used as a I2C Master interface. <br/>
+The harware is used as a USB to I2C Master interface. <br/>
 It can control any I2C Slave ICs, as long as they follow the I2C specification from Philips/NXP.
 
 Definition: &nbsp; I2C = I²C = IIC = Inter Intergrated Circuit
