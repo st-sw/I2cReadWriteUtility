@@ -34,6 +34,13 @@ Program
     * I2C_ReadWriteUtility.exe -command write -id7bit 0x28 -addr 0x0F -count 1 -data 0xAB
     * I2C_ReadWriteUtility.exe -command write -id7bit 0x28 -addr 0x00 -count 3 -data 0xA0 0xA1 0xA2
 
+  * GPIO configuration:
+    * Not implemented yet <br/>
+I2C_ReadWriteUtility.exe -type gpio -pin PB8 -command read  <br/>
+I2C_ReadWriteUtility.exe -type gpio -pin PB8 -command set  <br/>
+I2C_ReadWriteUtility.exe -type gpio -pin PB8 -command reset <br/>
+
+
 Download
 ----------------
 * Download link:  <br/>
