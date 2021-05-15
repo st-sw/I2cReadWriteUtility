@@ -19,6 +19,26 @@ It can control any I2C Slave ICs, as long as they follow the I2C specification f
 
 Definition: &nbsp; I2C = I²C = IIC = Inter Intergrated Circuit
 
+Program
+----------------
+* Screenshot:
+
+<img src="https://raw.githubusercontent.com/st-sw/I2cReadWriteUtility/master/pics/I2C_ReadWriteUtility_screenshot.png" width="400">
+
+* Usage:
+  * To read the I2C memory:
+    * I2C_ReadWriteUtility.exe -command read -id7bit 0x28 -addr 0x0F -count 1
+    * I2C_ReadWriteUtility.exe -command read -id7bit 0x28 -addr 0x00 -count 256
+
+  * To write the I2C memory:
+    * I2C_ReadWriteUtility.exe -command write -id7bit 0x28 -addr 0x0F -count 1 -data 0xAB
+    * I2C_ReadWriteUtility.exe -command write -id7bit 0x28 -addr 0x00 -count 3 -data 0xA0 0xA1 0xA2
+
+Download
+----------------
+* Download link:  <br/>
+https://github.com/st-sw/I2cReadWriteUtility/releases/download/v1.00/Nucleo_I2C_ReadWriteUtility_v1.00.zip
+
 Compatible hardware
 ----------------
 The hardware used for the I2C software is a cheap ARM Cortex evaluation board which only cost $10:
@@ -44,12 +64,17 @@ I2C frequency supported:
 
 The default frequency at startup is 100 kHz for higher compatibility.
 
-USB drivers for Windows :
+USB drivers :
 ----------------
-STSW-STM32102: &nbsp;&nbsp;&nbsp; STM32 Virtual COM Port Driver <br/>
+- For Windows 10:
+  - No additional drivers are needed (USB CDC class already built-in on Windows 10)
+
+- For Windows 7: 
+  - STSW-STM32102: &nbsp;&nbsp;&nbsp; STM32 Virtual COM Port Driver <br/>
 Download link: http://www.st.com/en/development-tools/stsw-stm32102.html
 
-No drivers are needed for Mac & Linux. It is recognized as the USB CDC class.
+- For Linux: 
+  - No drivers are needed for Mac & Linux. It is recognized as the USB CDC class.
 
 Notes:
 ----------------
