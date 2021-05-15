@@ -1,5 +1,5 @@
 # I2cReadWriteUtility
-I2C Read/Write utility for PC (USB to I2C)
+I2C Read/Write utility for STM32 Nucleo board (USB to I2C adapter)
 
 <img src="https://github.com/st-sw/I2cReadWriteUtility/blob/master/web/UsbI2cUtility_STM32_picture.jpg" width="300">
 
